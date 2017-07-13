@@ -13,7 +13,10 @@ html {
   flex-direction: column;
 }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   font-family: inherit;
 }
 
@@ -22,7 +25,7 @@ input, select, textarea, button {
   border: 1px solid;
   width: 606px;
   min-height: 447px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 5px;
 }
 
@@ -48,7 +51,7 @@ input, select, textarea, button {
 
 #browse {
   float: right;
-  color: #2D7EFF;
+  color: #2d7eff;
 }
 
 #browse-text {
@@ -129,7 +132,7 @@ tbody {
   visibility: hidden;
   width: 160px;
   background-color: #555;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -165,9 +168,9 @@ tbody {
   height: 5px;
   background: linear-gradient(
     90deg,
-    #FD9800,
-    #D73000 var(--progress),
-    white var(--progress)
+    #fd9800,
+    #d73000 var(--progress),
+    #fff var(--progress)
   );
   border: 0.5px solid;
   border-radius: 5px;
@@ -211,14 +214,14 @@ tbody {
 #copy-btn {
   width: 60px;
   height: 45px;
-  background: #337FEB;
+  background: #337feb;
   border: 1px solid #979797;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 
 #copy-btn:disabled {
-  background: #47B04B;
+  background: #47b04b;
   cursor: auto;
 }
 
@@ -227,27 +230,27 @@ tbody {
   margin: auto;
   width: 80%;
   text-align: center;
-  color: #2D7EFF;
+  color: #2d7eff;
   cursor: pointer;
 }
 
 /**   download.html **/
 #download-btn {
   font-size: 18px;
-  color: white;
+  color: #fff;
   width: 214px;
   height: 87px;
   margin: 50px auto;
   text-align: center;
-  background: #337FEB;
-  border: 1px solid #3EA050;
+  background: #337feb;
+  border: 1px solid #3ea050;
   border-radius: 6px;
   font-weight: 300;
   cursor: pointer;
 }
 
 #download-btn:disabled {
-  background: #47B04B;
+  background: #47b04b;
   cursor: auto;
 }
 
