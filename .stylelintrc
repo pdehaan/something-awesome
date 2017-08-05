@@ -1,7 +1,10 @@
 extends: stylelint-config-standard
 
 rules:
-  color-hex-case: lower
+  block-closing-brace-newline-before: null
+  comment-empty-line-before: null
   declaration-colon-newline-after: null
+  indentation: null
+  rule-empty-line-before: null
   selector-list-comma-newline-after: null
   value-list-comma-newline-after: null

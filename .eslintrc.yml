@@ -6,15 +6,20 @@ extends:
   - eslint:recommended
   - plugin:node/recommended
   - plugin:security/recommended
+  - prettier
+
 
 plugins:
   - node
+  - prettier
   - security
 
 root: true
 
 rules:
   node/no-unpublished-require: off
+
+  prettier/prettier: ['error', { singleQuote: true }]
 
   security/detect-non-literal-fs-filename: off
   security/detect-object-injection: off
